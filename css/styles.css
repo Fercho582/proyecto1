@@ -1,10 +1,18 @@
-*
-{
-
+body{
+		font-style: Verdana;
+		background-color: #BD0044;
 }
-header
-{
-	width: 100px;
+header{
+	width: 800px;
 	height: 100px;
-	background-color:  #F70000;
+	background-color: #FFE9F1;
+	margin: 10px auto;
+	border-radius: 80px 80px 0px 0px;
+	box-sizing: border-box;
+}
+.titulo{
+	padding: 15px;
+	font-size: 60px;
+	text-align: center;
+	color: #DC004F;
 }
