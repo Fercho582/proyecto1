@@ -4,21 +4,30 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<title>
-			Los 5 lenguajes del amor</title>
+		<title>Los 5 lenguajes del amor</title>
 	</head>
 	<body>
+		<script type="text/javascript">
+			alert("Bienvenido a mi pagina");
+			alert("Espero disfrutes de este contenido");
+			prompt("Quieres recibir notificaciones de esta pagina?");
+			alert("Está bien");
+		</script>	
+
 		<header>
 			<h1 class="titulo">Los 5 lenguajes del amor</h1>
 		</header>
 		<nav>
 			<table>
-				<a href="#">Inicio</a>
-				<a href="#">Contacto</a>
-				<a href="#">Más</a>
+				<a href="#" class="menu">Inicio</a>
+				<a href="pages/palabras.html" class="menu">Palabras</a>
+				<a href="pages/tiempodecalidad.html" class="menu">Tiempo de calidad</a>
+				<a href="pages/regalos.html" class="menu">Regalos</a>
+				<a href="pages/actosdeservicio.html" class="menu">Actos de Servicio</a>
+				<a href="pages/contactofisico.html" class="menu">Contacto Físico</a>
 			</table>
 		</nav>
-		<article>
+		<article class="pagina1">
 			<section>
 				<div style="text-align: center; padding-top: 50px">
 					<iframe width="425" height="240" src="https://www.youtube.com/embed/aDrZlQ1G4wM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,12 +35,70 @@
 				<p class="parrafo">
 					A menudo, en el ámbito privado, las personas comentamos los diversos problemas que experimentamos en pareja. Unos problemas son más perceptibles (como las discusiones en las tomas de decisiones, manías individuales no compartidas, etc.) que otros, los cuáles pasan más desapercibidos. Es el caso del tipo de problemática que vamos a exponer a continuación.
 				</p>
+				<table border="1">
+					<tr>
+						<td colspan="2" align="center">Lenguajes del amor</td>
+					</tr>
+					<tr>
+						<td>Palabras</td> <td>Halagos, palabras de ánimo...</td>
+					</tr>
+					<tr>
+						<td>Tiempo de calidad</td> <td>Dar un paseo, salir solos...</td>
+					</tr>
+					<tr>
+						<td>Regalos</td> <td>Dar regalos, estar disponible...</td>
+					</tr>
+					<tr>
+						<td>Actos de servicio</td> <td>Ayudar en el hogar(Lavar platos, cocinar...)</td>
+					</tr>
+					<tr>
+						<td>Contacto físico</td> <td>Abrazos, caricias...</td>
+					</tr>
+				</table>
+				<h2 class="parrafo">Los 5 lenguajes del amor: preferencias modales para demostrar y recibir amor</h2>
+				<img src="images/5lenguajes.jpg" alt="Error en cargar la imagen" style="margin: auto; display: block;">
+				<p class="parrafo">Según Chapman (2009), existen 5 lenguajes del amor. Estos pueden ser muy importantes para que la relación mejore sustancialmente, ya no solo en pareja, sino entre amigos, compañeros o familia. Chapman destaca que cada persona tiende a expresar su amor y prefiere recibirlo de maneras concretas.</p>
+				<ol class="parrafo" style="padding:40px;">
+					<li><a href="pages/palabras.html">Palabras</a></li>
+					<li><a href="#">Tiempo de Calidad</a></li>
+					<li><a href="#">Regalos</a></li>
+					<li><a href="#">Actos de servicio</a></li>
+					<li><a href="#">Contacto físico</a></li>
+				</ol>
 			</section>
 			<section>
+				<table>
+					<form>
+						<tr>
+							<td>
+								<label for="name">Nombre: </label>
+							</td>
+							<td>
+								<input type="text" id="name" name="user_name" size="30">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="correo">Correo electrónico: </label>
+							</td>
+							<td>
+								<input type="email" id="correo" name="Correo" size="30">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="msg">Mensaje:</label>
+							</td>
+							<td>
+								<textarea id="msg" name="user_message"></textarea>
+							</td>		
+						</tr>
+					</form>
+				</table>
 			</section>
 		</article>
 		<footer>
-			
+			Desarrollado por: Nayelis Vergara
 		</footer>
 	</body>
 </html>
